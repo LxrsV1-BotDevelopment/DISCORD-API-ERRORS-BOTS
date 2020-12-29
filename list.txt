@@ -103,4 +103,3 @@ CLIENT_INVALID_OPTION: (prop, must) => `The ${prop} option must be ${must}`,
   MEMBER_FETCH_NONCE_LENGTH: 'Nonce length must not exceed 32 characters.',
 };
 
-for (const [name, message] of Object.entries(Messages)) register(name, message);
